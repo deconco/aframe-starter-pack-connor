@@ -30,8 +30,8 @@ To Setup Your Code and Live Site (GitHub and GitHub Pages) first **sign in or cr
 5. Wait a couple of minutes for GitHub Pages to publish your site.
 
 ### When you are asked to submit your work in class, submit:
-1. Your **GitHub Pages live link**
-2. Your **repository link**
+1. Your **GitHub Pages link** (your live site)
+2. Your **repository link** (your code)
 
 
 ## STEP 02 - To Edit Your Code
@@ -68,7 +68,7 @@ To Setup Your Code and Live Site (GitHub and GitHub Pages) first **sign in or cr
 
 ### Save, Commit, and Push Changes to Github
 
-> Keep doing this step as you continue editing. This way your work isn't just saved to your computer but is synced to your Github account (and automatically updates your Github Pages live site).
+> Keep doing this last step as you continue editing. This way your work isn't just saved to your computer but is synced to your Github account (and automatically updates your Github Pages live site).
 
 As you work, remember to save your files in VS Code and periodically sync your work to GitHub:
 
