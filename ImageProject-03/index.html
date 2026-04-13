@@ -5,11 +5,44 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+
+      <a-assets>
+
+        <a-asset-item id="myModel" src="assets/teddybear_2024.obj"></a-asset-item>
+        <a-asset-item id="house" src="assets/House.stl.obj"></a-asset-item>
+        <a-asset-item id="plant1" src="assets/plant1.stl.obj"></a-asset-item>
+        <a-asset-item id="plant2" src="assets/plant2.stl.obj"></a-asset-item>
+        <a-asset-item id="plant3" src="assets/plant3.stl.obj"></a-asset-item>
+        <a-asset-item id="plant4" src="assets/plant4.stl.obj"></a-asset-item>
+        <a-asset-item id="plant5" src="assets/plant5.stl.obj"></a-asset-item>
+        <a-asset-item id="crystal1" src="assets/crystal.stl.obj"></a-asset-item>
+        <a-asset-item id="crystal2" src="assets/crystal.stl.obj"></a-asset-item>
+        <img id="leaf" src="assets/leaf.jpg">
+        <img id="grass" src="assets/grass.jpg">
+    
+      </a-assets>
+    
+      <a-obj-model src="#myModel" position="-1.042 -0.336 -3.91" scale="0.2 0.2 0.2" color="purple" width="4" height="4"></a-obj-model>
+      <a-obj-model src="#house" position="0 -0.005 -3.741" scale="1 1 1" rotation="270 0 0"></a-obj-model>
+      <a-obj-model src="#plant1" position="-1.378 0.008 -2.928" scale="0.017 0.017 0.017" rotation="270 0 0" color="#0b7000"></a-obj-model>
+      <a-obj-model src="#plant2" position="-.15 0 -3.1" scale="0.017 0.017 0.017" rotation="270 0 0" color="#12b300"></a-obj-model>
+      <a-obj-model></a-obj-model>
+      <a-obj-model></a-obj-model>
+      <a-obj-model></a-obj-model>
+      <a-obj-model></a-obj-model>
+      <a-obj-model></a-obj-model>
+      
+      
+      <!--
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      -->
+      <a-plane src="#grass" position="0 0 -4" rotation="-90 0 0" width="4" height="4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+
+
+      
     </a-scene>
   </body>
 </html>
